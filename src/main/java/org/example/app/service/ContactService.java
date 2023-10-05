@@ -8,7 +8,7 @@ import org.example.app.entity.Contact;
 import java.net.URI;
 import java.util.*;
 
-@Path("/api/v1.0/CONTACTS")
+@Path("/api/v1.0/contacts")
 @Produces({MediaType.APPLICATION_JSON})
 public class ContactService {
     // В реальній програмі використовується БД.
